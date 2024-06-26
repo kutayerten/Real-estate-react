@@ -23,8 +23,7 @@
         max-width: 640px;
     }
     .content{
-        background-color: transparent;
-        flex: 1;
+        height: calc(100vh - 100px);
     }
    
 }
