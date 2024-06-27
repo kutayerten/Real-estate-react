@@ -1,5 +1,6 @@
 import Card from '../../components/card/card';
 import Filter from '../../components/filter/filter';
+import Map from '../../components/map/map';
 import { listData } from '../../lib/dummydata'
 import './listPage.scss'
 
@@ -16,7 +17,9 @@ export default function ListPage() {
             ))}
         </div>
       </div>
-      <div className='mapContainer'>map</div>
+      <div className='mapContainer'>
+        <Map items={data}/>
+      </div>
     </div>
   )
 }
